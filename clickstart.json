@@ -16,7 +16,9 @@
     },
     "build-with-jenkins": {
         "template": {
-            "type": "maven"
+            "type": "https://raw.github.com/CloudBees-community/jboss71-ear-with-logback-clickstart/master/jenkins.xml",
+            "options": {
+            }
         }
     }
 }
