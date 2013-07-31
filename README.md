@@ -10,7 +10,7 @@ Should the build succeed, this seed app is deployed on a JBoss 7.1 container.
 
 # JBoss 7.1 EAR with LogBack & JBoss Deployment Structure Exclusions
 
-Please note CloudBees 7.1 Stack requires the deployment of an ear to use `jboss-deployment-structure.xml`. It will not work if you deploy a .war file.
+Please note **CloudBees JBoss 7.1 Stack requires the deployment of an ear to use `jboss-deployment-structure.xml`**. It will not work if you deploy a .war file.
 
 Extract from `src/main/application/jboss-deployment-structure.xml` file to prevent JBoss from hijacking SLF4J
 
