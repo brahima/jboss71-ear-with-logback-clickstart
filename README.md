@@ -27,7 +27,7 @@ Extract from `src/main/application/jboss-deployment-structure.xml` file to preve
         </exclusions>
     </sub-deployment>
 </jboss-deployment-structure>
-``
+```
 
 
 
