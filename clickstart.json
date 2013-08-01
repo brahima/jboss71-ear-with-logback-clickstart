@@ -4,12 +4,12 @@
     "source": "git://github.com/CloudBees-community/jboss71-ear-with-logback-clickstart.git",
     "description" : "Enable LogBack in your JBoss 71 web app",
     "doc-url" : "https://github.com/CloudBees-community/jboss71-ear-with-logback-clickstart/blob/master/README.md",
-    "app-package": "https://repository-community.forge.cloudbees.com/snapshot/localdomain/localhost/jboss71-ear-with-logback-war/1.0-SNAPSHOT/jboss71-ear-with-logback-war-1.0-20130731.082712-1.war",
-    "icon" : "https://raw.github.com/CloudBees-community/jboss71-ear-with-logback-clickstart/master/clickstart.jpeg",
-    "disabled": true,
+    "app-package": "https://repository-community.forge.cloudbees.com/snapshot/localdomain/localhost/jboss71-ear-with-logback-ear/1.0-SNAPSHOT/jboss71-ear-with-logback-ear-1.0-20130731.140614-5.ear",
+    "icon" : "https://raw.github.com/CloudBees-community/jboss71-ear-with-logback-clickstart/master/clickstart.png",
+    "disabled": false,
 
     "supported-by" : "cloudbees",
-    "order" : 100,
+    "order" : 400,
 
     "runtime": {
         "type": "jboss71"
