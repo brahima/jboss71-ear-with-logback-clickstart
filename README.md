@@ -1,6 +1,5 @@
 # Welcome to JBoss 7.1 EAR with LogBack Clickstart
 
-<!---
 
 This is a "ClickStart" that gets you going with a JBoss 7.1 ear nad Logback  "seed" project starting point. You can launch it here:
 
@@ -9,7 +8,6 @@ This is a "ClickStart" that gets you going with a JBoss 7.1 ear nad Logback  "se
 This will setup a continuous deployment pipeline - a CloudBees Git repository, a Jenkins build compiling and running the test suite (on each commit).
 Should the build succeed, this seed app is deployed on a JBoss 7.1 container.
 
--->
 
 # JBoss 7.1 EAR with LogBack & JBoss Deployment Structure Exclusions
 
@@ -31,6 +29,9 @@ Extract from `src/main/application/jboss-deployment-structure.xml` file to preve
     </sub-deployment>
 </jboss-deployment-structure>
 ```
+
+
+![JBoss 7.1 with LogBack Clickstart](clickstart.png)
 
 
 
